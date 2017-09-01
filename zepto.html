@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/zepto.css"/>
+		<script type="text/javascript" src="js/zepto.min.js" ></script>
+		<title></title>
+	</head>
+	<body>
+		<div class="container" id="container">
+			<div>111</div>
+			<div>222</div>
+			<div>333</div>
+			<div><button id="btn">开始体验</button></div>
+		</div>
+		<script>
+			var container=document.getElementById("container")
+			container.addEventListener("touchstart",function(ev){
+				ev.preventDefault();
+			})
+			$(function(){
+				var n=0;
+				var w=$('#container').find("div").width()
+				console.log(w)
+				$("#container").on("swipeLeft",function(){
+					n++;
+					if(n>$("#container").find("div").size()-1){
+						n=$("#container").find("div").size()-1;
+					}
+					$("#container").css("transform","translate3d(-"+n*w+"px,0,0)");
+				})
+				$("#container").on("swipeRight",function(){
+					n--;
+					if(n<0){
+						n=0;
+					}
+					$("#container").css("transform","translate3d(-"+n*w+"px,0,0)");
+				})
+				$("#btn").on("tap",function(){
+					location.href="http://www.baidu.com"
+				})
+			})
+		</script>
+	</body>
+</html>
