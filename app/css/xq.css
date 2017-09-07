@@ -38,4 +38,10 @@ footer ul li a { flex: 1; display: flex; flex-direction: column; color: white; t
 footer ul li a b { font-size: 0.5rem; line-height: 0.5rem; font-weight: normal; }
 footer ul li a i { line-height: 1.4rem; }
 
+.bottom { height: 8.5rem; box-sizing: border-box; font-size: 0.6rem; text-align: center; color: #999; padding-top: 0.5rem; }
+.bottom .fan { height: 1.4rem; line-height: 1.4rem; background: red; text-align: right; color: white; font-size: 0.7rem; position: relative; width: 100%; background: -webkit-linear-gradient(bottom left, #ff8909, #ff5b02); margin-bottom: 0.37rem; }
+.bottom .fan .top { height: 1.4rem; line-height: 1.4rem; width: 2rem; position: absolute; right: 0.2rem; }
+.bottom .fan span { display: inline-block; width: 0; height: 0; border: 0.2rem transparent solid; border-bottom-color: #fff; margin: 0 0.1rem; }
+.bottom p { padding: 0.1rem; }
+
 /*# sourceMappingURL=xq.css.map */
