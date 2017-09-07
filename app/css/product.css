@@ -14,7 +14,7 @@
 .box .prvenext .next { width: 3.5rem; position: absolute; font-size: 0.7rem; line-height: 1.3rem; margin: 0.6rem 0.5rem 0.5rem 0; color: #ff631a; position: absolute; top: 0; right: 0; border: 1px solid #ff631a; border-radius: 0.1rem; }
 
 nav { flex: 1; width: 30%; height: 100%; background: rgba(0, 0, 0, 0.7); float: left; margin-top: 2.25rem; transform: translateX(-100%); }
-nav ul { height: 100%; }
+nav ul { height: 100%; width: 100%; }
 nav ul li { height: 2.5rem; font-size: 0.6rem; line-height: 2.5rem; cursor: pointer; border-top: 0.1px solid rgba(204, 204, 204, 0.1); position: relative; }
 nav ul li.active { background: rgba(0, 0, 0, 0.57); }
 nav ul li.active div { height: 100%; width: 0.25rem; background: #FF631A; position: absolute; top: -0.02rem; left: 0; }
