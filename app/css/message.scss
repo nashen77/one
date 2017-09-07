@@ -115,6 +115,7 @@ nav {
     transform: translateX(-100%);
     ul {
         height: 100%;
+        width: 100%;
         li {
             height: 250/$sc+rem;
             font-size: 60/$sc+rem;
@@ -153,11 +154,10 @@ nav {
     transition: all 0.5s;
 }
 .ul_list{
-    width: 100%;
-    
+    width: 100%;    
     position: relative;
     top: 0;
     left: 0;
     flex: 1;
-
+    overflow: hidden;
 }

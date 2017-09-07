@@ -150,10 +150,11 @@ nav {
     width: 200%;
     height: 100%;
     transition: all 0.5s;
+//  display: flex;
 }
 .ul_list{
     width: 100%;
-//  overflow: hidden;
+    overflow: hidden;
     position: relative;
     top: 0;
     left: 0;
