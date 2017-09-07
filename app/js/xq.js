@@ -4,9 +4,9 @@ window.onload=function(){
 		var ul_list=document.getElementById("ul_list");
 		var zy=document.getElementById("zy");
 		var flag=true;
-//		document.addEventListener("touchmove",function(ev){
-//				ev.preventDefault()
-//			})
+		document.addEventListener("touchmove",function(ev){
+				ev.preventDefault()
+			})
 		function getstyle(obj,attr){
 				return getComputedStyle(obj,null)[attr];
 			}
@@ -14,7 +14,7 @@ window.onload=function(){
 		console.log(w)
 		l.addEventListener("touchstart",function(ev){
 //			alert("r")
-//			ev.preventDefault();
+			ev.preventDefault();
 			if(flag){
 					zy.style.transform="translate3d("+w+"px,0,0)";
 					flag=false;
@@ -25,7 +25,7 @@ window.onload=function(){
 		})
 		
 		$(".top").on("touchstart",function(ev){
-//				ev.preventDefault()
+				ev.preventDefault()
 			
 			$(".box").scrollTop({
 				top:0
