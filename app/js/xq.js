@@ -14,7 +14,7 @@ window.onload=function(){
 		console.log(w)
 		l.addEventListener("touchstart",function(ev){
 //			alert("r")
-			ev.preventDefault();
+//			ev.preventDefault();
 			if(flag){
 					zy.style.transform="translate3d("+w+"px,0,0)";
 					flag=false;
@@ -25,7 +25,7 @@ window.onload=function(){
 		})
 		
 		$(".top").on("touchstart",function(ev){
-				ev.preventDefault()
+//				ev.preventDefault()
 			
 			$(".box").scrollTop({
 				top:0
