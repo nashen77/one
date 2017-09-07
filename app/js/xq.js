@@ -24,7 +24,9 @@ window.onload=function(){
 				}
 		})
 		
-		$(".top").on("touchstart",function(){
+		$(".top").on("touchstart",function(ev){
+				ev.preventDefault()
+			
 			$(".box").scrollTop({
 				top:0
 			})
