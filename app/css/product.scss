@@ -106,7 +106,7 @@ nav {
     flex: 1;
     width: 30%;
     height: 100%;
-    overflow: auto;
+    overflow: hidden;
     background: rgba(0, 0, 0, 0.7);
     float: left;
     margin-top: 225/$sc+rem;
@@ -151,7 +151,7 @@ nav {
 }
 .ul_list{
     width: 100%;
-//  overflow: hidden;
+
     position: relative;
     top: 0;
     left: 0;
