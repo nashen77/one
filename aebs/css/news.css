@@ -1,0 +1,181 @@
+.content{
+	width: 100%;
+}
+.content .banner{
+	width: 100%;
+	height: 551px;
+	overflow: hidden;
+	position: relative;
+}
+.content .banner img{
+	width: 1920px;
+	height: 551px;
+	left: 50%;
+	margin-left: -960px;
+    position: absolute;
+}
+.content .about{
+	width: 1192px;
+	height: 1504px;
+/*	background: pink;*/
+	margin: 0 auto;
+}
+.content .about .sidebar{
+	width: 341px;
+	height: 1288px;
+	float: left;
+	margin-top: 216px;
+/*	background: red;*/
+}
+.content .about .sidebar ul li{
+	width: 315px;
+	height: 66px;
+	background: url(../img/about_us_bg.jpg) no-repeat;
+	text-align: center;
+	line-height: 66px;
+	margin-top: 39px;
+}
+.content .about .sidebar ul li:hover{
+	background: url(../img/about_us_bg02.jpg) no-repeat;
+}
+.content .about .sidebar ul li:first-child{
+	background: url(../img/about_us_bg02.jpg) no-repeat;
+}
+.content .about .sidebar ul li a{
+	color: white;
+	font-family: "微软雅黑";
+	font-size: 24px;
+}
+.content .about .sidebar ul li:first-child a{
+	color: #0fe7f4;
+}
+.content .about .sidebar ul li a:hover{
+	color: #0fe7f4;
+}
+.content .about .container{
+	width: 849px;
+	height: 1504px;
+/*	background: gray;*/
+	float: right;
+}
+.content .about .container .location{
+	width: 800px;
+	height: 109px;
+    border-bottom: 2px solid;
+    float: right;
+}
+.content .about .container .location ol{
+	float: left;
+	margin-top: 80px;
+	color: #6a7fbe;	
+	font-size: 18px;
+	font-family: "微软雅黑";
+}
+.content .about .container .location ul {
+	width: 224px;
+	float: right;
+	margin-top: 90px;
+    font-size: 12px;
+    font-family: "微软雅黑";
+}
+.content .about .container .location ul div{
+	color: #6a7fbe;	
+	padding-left: 55px;
+}
+.content .about .container .location ul .current{
+	float: left;
+}
+.content .about .container .location ul li{
+	float: left;
+}
+.content .about .container .location ul li a{
+	color: #6a7fbe;	
+}
+.content .about .main ul li{
+	width: 815px;
+	height: 179px;
+	background: url(../img/news_bg02.jpg);
+	margin-left: 34px;
+	margin-top: 45px;
+	font-family: "微软雅黑";
+	font-size: 18px;
+}
+.content .about .main ul li:first-child{
+	margin-top: 22px;
+	background: url(../img/news_bg.jpg);
+}
+
+.content .about .main ul li:hover{
+	background: url(../img/news_bg.jpg)no-repeat;
+}
+
+.content .about .main ul li .pro_left{
+	width: 204px;
+	height: 179px;
+	float: left;
+}
+.content .about .main ul li .pro_left p{
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	padding-top: 10px;
+    font-family: "黑体";
+}
+.content .about .main ul li .pro_left p:first-child{
+	font-size: 90px;
+}
+.content .about .main ul li .pro_right{
+	width: 611px;
+	height: 179px;
+	float: right;
+}
+.content .about .main ul li .pro_right h1{
+	font-size: 18px;
+	margin-left: 21px;
+	margin-top: 25px;
+	color: black;
+}
+.content .about .main ul li .pro_right h1 a{
+	color: #0e2756;
+}
+.content .about .main ul li .pro_right p{
+	font-size: 14px;
+	font-family: "微软雅黑";
+	margin-left: 21px;
+	text-indent: 2em;
+	line-height: 25px;
+	color: black;
+}
+
+
+
+
+
+
+
+.content .about .page{
+	width: 378px;
+	height: 50px;
+	line-height: 50px;
+	margin-left: 480px;
+	margin-top: 90px;
+	font-size: 24px;
+	font-family: "微软雅黑";
+}
+.content .about .page ul li{
+	float: left;
+	padding: 10px;
+}
+.content .about .page ul li:first-child+li+li a{
+	color: red;
+	border: 1px solid red;
+}
+.content .about .page ul li a{
+    border: 1px solid white;
+    font-family: "微软雅黑";
+    font-size: 24px;
+}
+.content .about .page ul li a:hover{
+	color: red;
+	border: 1px solid red;
+}

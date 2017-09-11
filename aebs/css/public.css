@@ -1,0 +1,136 @@
+/*公共样式*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: none;
+	text-decoration: none;
+	color: black;
+}
+.clear:after{
+	content: '';
+	height: 0;
+	display: block;
+	visibility: hidden;
+	clear: both;
+}
+a,input,textarea:focus{
+	outline: none;
+}
+
+
+ /*头部样式*/
+.header{
+	width: 100%;
+	height: 164px;
+	background: url(../img/index_bg.jpg) no-repeat;
+	margin: 0 auto;
+}
+.header .container{
+	width: 1197px;
+	height: 100%;
+	margin: 0 auto;
+	background: url(../img/index_bg02.jpg)no-repeat;
+}
+.header .container .header_top .logo a{
+	/*margin-left: 200px;*/
+}
+.header .header_top a{
+	float: left;
+	
+}	
+.header .header_top .seach{
+	width: 320px;
+	height: 127px;
+	float: right;
+}
+.header .header_top .seach form{
+	width: 262px;
+	height: 50px;
+	margin-top: 30px;
+	overflow: hidden;
+}
+.header .header_top .seach form input[type="text"]{
+	width: 180px;
+	height: 50px;
+	float: left;
+    padding-left: ;
+	color: #f1f1f3;
+	line-height: 50px;
+	padding-left: 20px;
+    background: url(../img/search_bg.png) no-repeat;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    letter-spacing:4px;
+}
+.header .header_top .seach form input[type="image"]{
+	width: 
+	height: 45px;
+	float: left;
+}
+.header .nav{
+	width: 700px;
+	height: 100;
+	margin: 0 auto;
+}
+
+.header .nav li{
+	float: left;
+	height: 28px;
+	line-height: 28px;
+	margin-left: 55px;
+	font-family: "黑体";
+}
+.header .nav li a{
+	color: white;
+}
+.header .nav li a:hover{
+	color: black;
+}
+.header .nav .current a{
+	color: black;
+}
+.header .nav .current{
+	border-bottom: 2px solid black;
+}
+.header .nav li:hover{
+	border-bottom: 2px solid black;
+	color: black;
+}
+
+
+/* 尾部样式*/
+.footer{
+	width: 100%;
+	height: 438px;
+	background: url(../img/footer_bg.jpg);
+}
+.footer .container{
+	height: 140px;
+	width: 1197px;
+	margin: 0 auto;
+}
+.footer .container .content{
+	width: 1197px;
+	height: 140px;
+	margin: 0 auto;
+}
+.footer .container .content .copyright{
+	line-height: 37px;
+	text-align: center;
+	font-family: "宋体";
+	font-size: 18px;
+	padding-top: 298px;
+	width: 970px;
+	height: 140px;
+	float: left;
+}
+.footer .container .content .copyright p{
+	color: #8191b5;	
+}
+.footer .container .content .code{
+	margin-top: 290px;
+	width: 227px;
+	height: 140px;
+	float: right;   
+}

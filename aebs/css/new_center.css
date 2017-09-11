@@ -1,0 +1,135 @@
+.content{
+	width: 100%;
+	height: 1422px;
+}
+.content .banner{
+	width: 100%;
+	height: 551px;
+	overflow: hidden;
+	position: relative;
+}
+.content .banner img{
+	width: 1920px;
+	height: 551px;
+	left: 50%;
+	margin-left: -960px;
+    position: absolute;
+}
+.content .about{
+	width: 1192px;
+	height: 1504px;
+	/*background: pink;*/
+	margin: 0 auto;
+}
+.content .about .sidebar{
+	width: 341px;
+	height: 1205px;
+	float: left;
+	margin-top: 216px;
+	/*background: red;*/
+}
+.content .about .sidebar ul li{
+	width: 315px;
+	height: 66px;
+	background: url(../img/about_us_bg.jpg) no-repeat;
+	text-align: center;
+	line-height: 66px;
+	margin-top: 39px;
+}
+.content .about .sidebar ul li:hover{
+	background: url(../img/about_us_bg02.jpg) no-repeat;
+}
+.content .about .sidebar ul li:first-child{
+	background: url(../img/about_us_bg02.jpg) no-repeat;
+}
+.content .about .sidebar ul li a{
+	color: white;
+	font-family: "微软雅黑";
+	font-size: 24px;
+}
+.content .about .sidebar ul li:first-child a{
+	color: #0fe7f4;
+}
+.content .about .sidebar ul li a:hover{
+	color: #0fe7f4;
+}
+.content .about .container{
+	width: 849px;
+	height: 1504px;
+/*	background: gray;*/
+	float: right;
+}
+.content .about .container .location{
+	width: 800px;
+	height: 109px;
+    /*text-underline: 1px inherit;*//*#888291;*/
+    border-bottom: 2px solid;
+    float: right;
+}
+.content .about .container .location ol{
+	float: left;
+	margin-top: 80px;
+	color: #6a7fbe;	
+	font-size: 18px;
+	font-family: "微软雅黑";
+}
+.content .about .container .location ul {
+	width: 224px;
+	float: right;
+	margin-top: 90px;
+    font-size: 12px;
+}
+.content .about .container .location ul div{
+	color: #6a7fbe;	
+	padding-left: 55px;
+}
+.content .about .container .location ul .current{
+	float: left;
+}
+.content .about .container .location ul li{
+	float: left;
+}
+.content .about .container .location ul li a{
+	color: #6a7fbe;	
+}
+.content .about .container .main .pro_list{
+	width: 849px;
+	height: 113px;
+	/*background: palegoldenrod;*/
+	text-align: center;
+}
+.content .about .container .main .pro_list h1{
+	padding-bottom: 34px;
+	font-size: 30px;
+	font-family: "微软雅黑";
+}
+.content .about .container .main .pro_list span{
+	color: #70757d;
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+.content .about .container .main img{
+	float: left;
+	padding-right: 20px;
+}
+.content .about .container .main ul{
+	font-size: 14px;
+	line-height: 26px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: "微软雅黑";
+}
+.content .about .container .main .flip{
+	float: right;
+	margin-top: 60px;
+	margin-right:16px ;
+}
+.content .about .container .main .flip .prev ul li a{
+	color: red;
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+.content .about .container .main .flip .next ul li a:hover{
+	color: red;
+}
+
