@@ -1,0 +1,137 @@
+.banner_top{
+	margin: 0 auto;
+	width: 960px;
+	height: 100%;
+}
+.banner_top img{
+	width: 100%;
+}
+ h2 {
+	height: 113px;
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 27px;
+	box-sizing: border-box;
+}
+
+ h2 .divhead_left .font {
+	font-size: 18px;
+}
+
+ h2 .divhead_left span {
+	font-size: 10px
+}
+
+ h2 .divhead_left span:nth-child(2) {
+	color: #737373;
+}
+
+ h2 .divhead_left {
+	margin-top: 8px;
+}
+.main{
+	width: 958px;
+	height: 606px;
+	margin: 0 auto;
+	border: 1px solid #CCCCCC;
+}
+.main_left{
+	box-sizing: border-box;
+	/*width: 210px;*/
+	height: 606px;
+	float: left;
+}
+.main_left_top{
+	padding: 0px 6px 0 0px;
+	/*width: 210px;*/
+	height:606px;
+	/*border: 1px solid #CCCCCC;*/
+	box-sizing: border-box;
+}
+.main_left_top li{
+	width: 144px;
+	height: 40px;
+	line-height: 40px;
+	padding-left:10px ;
+	padding-right: 10px;
+	box-sizing: border-box;
+	position: relative;
+	
+}
+.main_left_top li a{
+	display: block;
+	width: 124px;
+	height: 40px;
+	border-bottom: 1px solid #CCCCCC;
+	line-height: 40px;
+	text-align: center;
+	font-size: 12px;
+}
+.main_left_top li:last-child{
+	border-bottom: none;
+}
+/*.main_left_top li:hover{
+	background: #ff6637;
+}
+.main_left_top li>a:hover{
+	color: #ff6637;
+	color: white;
+}*/
+.sj{
+	width: 6px;
+	height: 11px;
+	background: url(../img/AJcDCAQQnOCOvgUY-q2JjAI.png);
+	/*background: red;*/
+	position: absolute;
+	right: -6px;
+	top: 36%;
+}
+.main_right{
+	width: 600px;
+	height: 100%;
+	box-sizing: border-box;
+	/*border: 1px solid #CCCCCC;*/
+	float: left;
+	margin-left: 60px;
+	/*padding: 21px 6px 0 6px;*/
+	display: none;
+	overflow: hidden;
+}
+.main_right ul{
+	display: flex;
+	/*width: 100%;*/
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+.main_right ul li{
+	/*flex: 1;*/
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	padding: 0 6px;
+	text-align: center;
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+.main_right ul li img{
+	cursor: pointer;
+	
+}
+.main_right ul li p{
+	/*margin-top: 15px;*/
+}
+.main_right ul li:first-child,.main_right ul li:nth-child(4),.main_right ul li:nth-child(7){
+	padding-left: 14px;
+}
+/*出现隐藏*/
+.block{
+	display: block;
+}
+.hidden{
+	display: none;
+}
+.hover{
+	color: white;
+}
+
+

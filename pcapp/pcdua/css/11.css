@@ -1,0 +1,168 @@
+*{
+	margin: 0;
+	padding: 0;
+	/*box-sizing: ;*/
+}
+.box{	
+	
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.7);
+	display: none;
+	/*position: relative;*/
+}
+.mid{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	width: 890px;
+	height: 650px;
+	background: white;
+	z-index: 999;
+	padding: 70px 46px 0 46px;
+	box-sizing: border-box;
+	position: relative;
+}
+.left,.right{
+	float: left;
+}
+.left{
+	width: 390px;
+	height: 390px;	
+	text-align: center;
+	box-sizing: border-box;
+	padding: 125px 0;
+
+}
+.left img{
+	background-size: 100%;
+}
+
+.right h3{
+	width: 375px;
+	/*width: 100%;*/
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	border-bottom: 1px solid #ccc;
+	padding-left: 5px;
+}
+.right p{
+	line-height: 43px;
+	font-size: 13px;
+	color: #666666;
+}
+.right p input{
+	width: 53px;
+	height: 38px;
+	line-height: 38px;
+	border: 1px solid #ccc;
+	text-align: center;
+	outline: none;
+}
+.line-through{
+	text-decoration: line-through;
+}
+.m{
+	font-weight:bolder;
+	color: #cc3300;
+	text-decoration: none;
+}
+.right button{
+	width: 140px;
+	height: 44px;
+	box-sizing: border-box;
+	border: 1px solid #b30000;
+	background: #ffeded;
+	color: #b30000;
+	outline: none;
+	margin-right: 12px;
+}
+.right button:last-child{
+	background: #b30000;
+	color: white;
+}
+.right p:last-child{
+	margin-top: 10px;
+}
+.bottom{
+	width: 710px;
+	height: 80px;
+}
+.top{
+	width: 100%;
+	height: 390px;
+	margin-bottom: 35px;
+}
+.bottom ul{
+	display: flex;
+	list-style: none;
+}
+.bottom ul li{
+	max-width:85px ;
+	flex: 1;
+	box-sizing: border-box;
+	position: relative;
+	padding: 0 5px;
+	
+}
+.bottom img{
+	max-width: 80px;
+	/*max-height: 80px;*/
+	position: relative;
+}
+.b{
+	border: 2px solid #c80024;
+}
+.sjh{	
+	border:5px solid red;
+	display: block;
+	position: absolute;
+	top:-4px;
+	left:50%;	
+	transform: translateX(-50%);
+	border-color: red transparent  transparent red ; 
+	transform: rotate(45deg);
+}
+.pevr,.next{
+	width: 92px;
+	height: 92px;
+	border-radius: 92px;
+	background: #666666;
+	color: white;
+	font-size: 60px;
+	line-height: 92px;
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	text-align: center;
+	cursor: pointer;
+}
+.pevr{
+	left: -120px;	
+}
+.next{
+	right: -120px;
+}
+.close{
+	width: 30px;
+	height: 30px;
+	/*background: red;*/
+	position: absolute;
+	text-align: center;
+	line-height: 30px;
+	top: 5px;
+	right: 5px;
+	color: #666666;
+	cursor: pointer;
+	box-sizing: border-box;
+	border-radius: 30px;
+	
+}
+.close:hover{
+	border: 1px solid #ccc;
+}

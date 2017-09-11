@@ -1,0 +1,305 @@
+*{
+	margin: 0;
+	padding: 0;	
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+header{
+	width: 960px;
+	height: 100px;
+	margin: 0 auto;
+	/*line-height: 100px;*/
+}
+header h1{
+	float: left;
+	height: 100px;
+	line-height: 100px;
+}
+header input{
+	height: 34px;
+	width: 352px;
+	border: 1px solid #ccc ;
+	box-sizing: border-box;
+	outline-color: #CCCCCC;
+	outline: none;
+}
+.header_right{
+	float: right;
+	margin-right: 8px;
+	height: 100px;
+	box-sizing: border-box;
+	padding: 33px 0;
+	
+}
+.header_right .soso img{
+	vertical-align: middle;
+	position: absolute;
+	right: 1px;
+	top: 0;
+	margin-right:34px ;
+}
+.soso{
+	width: 420px;
+	height: 34px;
+	position: relative;
+	float: left;
+	
+}
+.login ul{
+	border: 1px solid #ccc;
+	position: absolute;
+	top: 40px;
+	left: -22px;
+	display: none;
+	z-index: 11;
+	background: white;
+}
+.login ul li:hover{
+	text-decoration: underline;
+	color: #FF6637;
+}
+.login ul:after{
+	content: "";
+	width: 10px;
+	height: 10px;
+	background: white;
+	position: absolute;
+	top: -6px;
+	left: 33px;
+	border: 1px solid #ccc;
+	transform: rotate(45deg);
+	border-bottom: none;
+	border-right: none;
+	z-index: 0;
+}
+.login ul li{
+	list-style: none;
+	color: #666666;
+	width:80px;
+	text-align: center;
+	line-height: 25px;
+	margin-top: 2px;
+}
+.login{
+	height: 34px;
+	float: left;
+	cursor: pointer;
+	box-sizing: border-box;
+	padding-right:20px ;
+	font-size: 12px;
+	position: relative;
+	}
+.login:hover ul{
+		display: block;
+}
+nav.nav{
+	width: 100%;
+	height: 50px;
+	background: #2b2b2b;
+}
+.nav ul{
+	width: 960px;
+	height: 50px;
+	margin: 0 auto;
+	list-style: none;
+}
+.nav ul li {
+	float: left;
+	width: 120px;
+	height: 50px;
+	line-height: 50px;
+	margin-right: 20px;
+	color: white;
+	font-size: 15px;
+	/*background: #ff6637;*/
+	text-align: center;
+	cursor: pointer;
+}
+/*.nav ul li:first-child{
+	background: #ff6637;
+}*/
+.nav ul li:hover{
+	background: #ff6637;
+	
+}
+.nav ul li a{
+	display: block;
+	width: 120px;
+	height: 50px;
+	line-height: 50px;	
+	color: white;
+	font-size: 15px;
+}
+.footer_top ul{
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 27px;
+	height: 81px;
+	margin-bottom: 30px;	
+}
+.footer_top li{
+	list-style: none;
+	width: 230px;
+	height: 83px;
+	box-sizing: border-box;	
+	padding-top: 16px;
+	padding-left: 31px;
+	padding-bottom: 16px;
+	padding-right: 26px;
+	border: 1px solid #ccc;
+	float: left;
+	margin-right: 13px;	
+	cursor: pointer;
+}
+.footer_top li:last-child{
+	margin-right: 0;
+}
+.footer_top_left{
+	float: left;
+	height: 81px;	
+	color: #666666;
+	text-align: center;
+}
+.footer_top_right{
+	float: right;
+}
+.footer_top_left p{
+	font-size: 17px;
+	font-weight: bolder;
+	margin-top: 3px;
+	line-height: 27px;	
+}
+.footer_top_left span{
+	font-size: 12px;
+}
+.footer_bottom{
+	height: 87px;
+	background:#282828 ;
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	box-sizing: border-box;
+	padding-top: 16px;
+}
+.footer_bottom p,.footer_bottom p>a{
+	color: #bebebe;
+}
+.footer_bottom p>a:hover{
+	color: white;
+}
+.footer_bottom p{	
+	line-height: 25px;
+}
+/*左侧竖杆*/
+.vertical{
+	width: 4px;
+	height: 46px;
+	background:#ff6637;
+	float: left;
+}
+/*字体颜色*/
+.font{
+	color:#ff6637;
+	font-weight: bolder;
+}
+.floatleft{
+	float: left;
+}
+.floatright{
+	float: right;
+}
+.clear{
+	clear: both;
+}
+.divhead_left{
+	margin-top: 12px;
+}
+.divhead_left span{
+	display: block;
+	margin-left: 10px;
+}
+.more{
+	font-size: 10px;
+	display: inline-block;
+	height: 46px;
+	line-height: 46px; 
+	cursor: pointer;
+	font-weight: normal;
+}
+ul {
+	list-style: none;
+}
+/*激活*/
+.active{
+	background: #ff6637;
+}
+.divhead{
+	width: 100%;
+	height: 46px;	
+	font-size: 13px;
+	color: #666666;
+}
+.contact{
+	padding-left: 5px;
+	line-height: 29px;
+	color: #333333;
+}
+/*返回顶部*/
+.fixed {
+	width: 50px;
+	position: absolute;
+	
+	right: 20px;
+	top: 0;
+	line-height: 100px;
+	text-align: center;
+	height: 240px;
+}
+
+.fixed ul {
+	display: flex;
+	list-style: none;
+	flex-direction: column;
+	font-size: 12px;
+	width: 90px;
+}
+
+.fixed ul li {
+	background: yellowgreen;
+	flex: 1;
+	width: 70px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 12px;
+	margin: 5px 0;
+	cursor: pointer;
+	position: relative;
+	z-index: 111;
+	opacity: 0.85;
+}
+
+.fixed ul li i {
+	width: 70px;
+	height: 50px;
+	background: greenyellow;
+	position: absolute;
+	left: 0px;
+	top: 0;
+	transition: all 0.5s ease-out;
+}
+
+.fixed ul li span {
+	z-index: 999;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 70px;
+	height: 50px;
+	background: yellowgreen;
+}
+
+.fixed ul li:last-child:hover i {
+	left: -70px;
+}
