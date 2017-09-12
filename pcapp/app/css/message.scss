@@ -68,16 +68,16 @@ form{
             border: 20/$sc+rem transparent solid;
             border-bottom-color: #fff;
             margin:0  10/$sc+rem;
+            
         }
     }
     p{
         padding: 10/$sc+rem;
         a{
             text-decoration: none;
-             color: #999;
-            -webkit-tap-highlight-color: transparent;
+    color: #999;
+    -webkit-tap-highlight-color: transparent;
         }
-        
     }
 }
 .box{
@@ -113,12 +113,14 @@ nav {
     flex: 1;
     width: 30%;
     height: 100%;
-    overflow: auto;
+//  overflow: auto;
     background: rgba(0, 0, 0, 0.7);
     float: left;
     margin-top: 225/$sc+rem;
     transform: translateX(-100%);
     ul {
+        height: 100%;
+        width: 100%;
         li {
             height: 250/$sc+rem;
             font-size: 60/$sc+rem;
@@ -157,11 +159,11 @@ nav {
     transition: all 0.5s;
 }
 .ul_list{
-    width: 100%;
-    overflow: hidden;
+    width: 100%;  
+    height: 100%;  
     position: relative;
     top: 0;
     left: 0;
     flex: 1;
-
+    overflow: hidden;
 }
