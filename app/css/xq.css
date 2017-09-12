@@ -7,7 +7,7 @@
 .price p { color: #999; font-size: 0.6rem; }
 .price p span { text-decoration: line-through; }
 
-.box { overflow: auto; height: 100%; width: 100%; float: none; padding-bottom: 2.25rem; }
+.box { padding-bottom: 2.25rem; }
 .box .move { display: flex; list-style: none; border-bottom: 0.01rem solid #CCCCCC; }
 .box .move li { flex: 1; text-align: center; color: #333333; height: 2.2rem; line-height: 2.2rem; font-size: 0.6rem; }
 
