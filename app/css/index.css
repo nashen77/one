@@ -35,7 +35,7 @@ a { text-decoration: none; }
 .container .section .sectionbar section .containers .swiper-slide { display: flex; }
 .container .section .sectionbar section .containers .swiper-slide div { margin: 5px; border: 1px solid #ccc; border-radius: 5px; height: 9rem; }
 .container .section .sectionbar section .containers .swiper-slide div span:nth-child(2) { display: inline-block; width: 7rem; padding-left: 5px; font-size: 0.5rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.container .section .sectionbar .footer { height: 5rem; box-sizing: border-box; font-size: 0.6rem; text-align: center; margin-top: 10px; }
+.container .section .sectionbar .footer { height: 8rem; box-sizing: border-box; font-size: 0.6rem; text-align: center; margin-top: 10px; }
 .container .section .sectionbar .footer .fan { height: 1.4rem; line-height: 1.4rem; background: red; text-align: right; color: white; font-size: 0.7rem; position: relative; width: 100%; background: -webkit-linear-gradient(bottom left, #ff8909, #ff5b02); margin-bottom: 0.37rem; }
 .container .section .sectionbar .footer .fan .top { height: 1.4rem; line-height: 1.4rem; width: 2rem; position: absolute; right: 0.2rem; }
 .container .section .sectionbar .footer .fan span { display: inline-block; width: 0; height: 0; border: 0.2rem transparent solid; border-bottom-color: #fff; margin: 0 0.1rem; }
