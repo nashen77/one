@@ -40,7 +40,7 @@ $sc:100;
 //  height: 100%;
 //  width: 100%;
 //  float: none;
-    padding-bottom: 225/$sc+rem;
+//  padding-bottom: 225/$sc+rem;
     
    .move{
         display: flex;
@@ -181,8 +181,6 @@ $sc:100;
         }
     }
 }
-
-
 .bottom{
     height: 850/$sc+rem;
     box-sizing: border-box;
