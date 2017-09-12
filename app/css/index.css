@@ -40,6 +40,7 @@ a { text-decoration: none; }
 .container .section .sectionbar .footer .fan .top { height: 1.4rem; line-height: 1.4rem; width: 2rem; position: absolute; right: 0.2rem; }
 .container .section .sectionbar .footer .fan span { display: inline-block; width: 0; height: 0; border: 0.2rem transparent solid; border-bottom-color: #fff; margin: 0 0.1rem; }
 .container .section .sectionbar .footer p { padding: 0.1rem; }
+.container .section .sectionbar .footer p a { text-decoration: none; color: #000000; -webkit-tap-highlight-color: transparent; }
 .container footer ul { height: 100%; display: flex; border-top: solid 0.5px #ced6cf; }
 .container footer ul li { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #fff; }
 .container footer ul li a { flex: 1; display: flex; flex-direction: column; color: white; text-decoration: none; }

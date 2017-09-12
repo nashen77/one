@@ -215,10 +215,16 @@ $sc:100;
                         border: 20/$sc+rem transparent solid;
                         border-bottom-color: #fff;
                         margin:0  10/$sc+rem;
+                        
                     }
                 }
                 p{
                     padding: 10/$sc+rem;
+                    a{
+                        text-decoration: none;
+                        color: #000000;
+                         -webkit-tap-highlight-color: transparent;
+                    }
                     
                 }
             } 

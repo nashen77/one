@@ -221,6 +221,10 @@ $sc:100;
     }
     p{
         padding: 10/$sc+rem;
-        
+        a{
+            text-decoration: none;
+    color: #999;
+    -webkit-tap-highlight-color: transparent;
+        }
     }
 }    

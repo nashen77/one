@@ -68,11 +68,16 @@ form{
             border: 20/$sc+rem transparent solid;
             border-bottom-color: #fff;
             margin:0  10/$sc+rem;
+            
         }
     }
     p{
         padding: 10/$sc+rem;
-        
+        a{
+            text-decoration: none;
+    color: #999;
+    -webkit-tap-highlight-color: transparent;
+        }
     }
 }
 .box{

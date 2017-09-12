@@ -41,5 +41,6 @@ footer ul li a i { line-height: 1.4rem; }
 .bottom .fan .top { height: 1.4rem; line-height: 1.4rem; width: 2rem; position: absolute; right: 0.2rem; }
 .bottom .fan span { display: inline-block; width: 0; height: 0; border: 0.2rem transparent solid; border-bottom-color: #fff; margin: 0 0.1rem; }
 .bottom p { padding: 0.1rem; }
+.bottom p a { text-decoration: none; color: #999; -webkit-tap-highlight-color: transparent; }
 
 /*# sourceMappingURL=xq.css.map */
